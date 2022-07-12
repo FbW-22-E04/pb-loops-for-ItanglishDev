@@ -23,4 +23,14 @@ for (let i = 0; i < 101; i++) {
   } else if (i % 5 == 0) {
     console.log("Buzz", i);
   }
+
+  const ForThisThree = [];
+  const ForThisFive = [];
+}
+for (let i = 0; i < 1000; i++) {
+  if (i % 3 == 0) {
+    arrayForThisThree.push(i);
+  } else if (i % 5 == 0) {
+    arrayForThisFive.push(i);
+  }
 }
